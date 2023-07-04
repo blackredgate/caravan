@@ -227,3 +227,31 @@ footer{
 .footer-text{
   color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+  .main-visual-content{
+    width: 100%;
+  }
+
+  main{
+    display: block;
+    width: 100%;
+  }
+
+  .blog{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .sidebar{
+    width: 100%;
+  }
+
+  .instagram-box{
+    width: 47%;
+  }
+
+  .instagram-box:nth-child(odd){
+    margin: 0 3% 3% 0;
+  }
+}
